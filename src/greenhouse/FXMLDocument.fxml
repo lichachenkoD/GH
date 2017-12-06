@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="380.0" prefWidth="563.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="greenhouse.FXMLDocumentController">
+    <children>
+      <Separator layoutX="19.0" layoutY="211.0" prefHeight="3.0" prefWidth="500.0" style="-fx-background-color: #000000;" />
+      <Separator layoutX="18.0" layoutY="127.0" orientation="VERTICAL" prefHeight="86.0" prefWidth="6.0" style="-fx-background-color: #00BCD4;" />
+      <Separator layoutX="516.0" layoutY="127.0" orientation="VERTICAL" prefHeight="86.0" prefWidth="6.0" style="-fx-background-color: #00BCD4;" />
+      <Separator fx:id="spv_open_left" layoutX="18.0" layoutY="83.0" orientation="VERTICAL" prefHeight="54.0" prefWidth="6.0" style="-fx-background-color: #6A1B9A;" />
+      <Separator fx:id="spv_open_right" layoutX="516.0" layoutY="82.0" orientation="VERTICAL" prefHeight="54.0" prefWidth="6.0" style="-fx-background-color: #6A1B9A;" />
+      <Separator layoutX="166.0" layoutY="37.0" prefHeight="3.0" prefWidth="209.0" style="-fx-background-color: #00BCD4;" />
+      <Label fx:id="label_shower" layoutX="24.0" layoutY="79.0" prefHeight="17.0" prefWidth="493.0" text=" ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢ ♢" />
+      <Button layoutX="24.0" layoutY="227.0" mnemonicParsing="false" onAction="#startTheSimulation" prefHeight="25.0" prefWidth="114.0" style="-fx-background-color: #3F51B5;" text="Почати" textFill="WHITE" />
+      <TextField fx:id="current_temperature" layoutX="444.0" layoutY="227.0" prefHeight="25.0" prefWidth="78.0" />
+      <Label layoutX="218.0" layoutY="231.0" text="Необхідна темпаратура  25 °C, поточна:" />
+      <Label layoutX="218.0" layoutY="260.0" text="Необхідна вологість 70 %, поточна" />
+      <TextField fx:id="current_wet" layoutX="419.0" layoutY="256.0" prefHeight="25.0" prefWidth="103.0" />
+      <Button fx:id="b_windows" layoutX="218.0" layoutY="291.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="302.0" />
+      <Button fx:id="b_shower" layoutX="218.0" layoutY="330.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="302.0" />
+      <Button layoutX="24.0" layoutY="265.0" mnemonicParsing="false" onAction="#stopTheSimulation" prefHeight="25.0" prefWidth="114.0" style="-fx-background-color: #424242;" text="Зупинити" textFill="WHITE" />
+      <Separator layoutX="19.0" layoutY="59.0" prefHeight="3.0" prefWidth="150.0" rotate="-15.9" style="-fx-background-color: #00BCD4;" />
+      <Separator layoutX="372.0" layoutY="59.0" prefHeight="3.0" prefWidth="150.0" rotate="15.9" style="-fx-background-color: #00BCD4;" />
+      <ImageView fitHeight="54.0" fitWidth="42.0" layoutX="30.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../34.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="42.0" layoutX="73.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../34.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="42.0" layoutX="117.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../34.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="42.0" layoutX="159.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../34.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="42.0" layoutX="201.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../34.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="42.0" layoutX="243.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../34.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="42.0" layoutX="282.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../34.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="42.0" layoutX="328.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../34.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="42.0" layoutX="369.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../34.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="42.0" layoutX="416.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../34.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="42.0" layoutX="462.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../34.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
